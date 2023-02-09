@@ -1,0 +1,13 @@
+.description img {
+    margin-inline: auto;
+}
+
+.description code {
+    font-size: 0.875rem;
+    display: inline-block;
+    /* line-height: 1px; */
+}
+
+:is(.description, .about, figcaption, .end--comment) a {
+    text-decoration: underline;
+}

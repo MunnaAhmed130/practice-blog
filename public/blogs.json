@@ -1,0 +1,158 @@
+[
+    {
+        "author": {
+            "name": "Jimmy Ng, PHD",
+            "image": "https://i.ibb.co/bRRkP8B/Jimmy-Ng-Ph-D.jpg",
+            "followersCount": 380,
+            "about": "I write about science, technology, and science fiction; 3x top writer (science, space, future); semiconductor engineer by day"
+        },
+        "blog": {
+            "image": "https://miro.medium.com/max/720/1*45IFKlT9ycbxW32hqoogFg.webp",
+            "imageCaption": "Artist’s conception of the James Webb Space Telescope (JWST) in outer space orbiting Earth. Source: [Dima Zel](/), via [Shutterstock](/).",
+            "tags": ["Science", "Space", "Space Exploration"],
+            "publishedDate": "Jan 27, 2022 ",
+            "readTime": "4",
+            "title": "JWST Discovers Its First Exoplanet, and It’s Earthlike!",
+            "subtitle": "Another milestone was achieved by the James Webb Space Telescope.",
+            "firstLetter": true,
+            "description": "Researchers confirmed an **exoplanet**, a planet outside our Solar System, using NASA’s James Webb Space Telescope for the first time. Formally classified as **LHS 475 b**, the exoplanet in the constellation Octans and is relatively close at only 41 light-years away. LHS 475 b is almost exactly the same size as Earth, with a diameter of 99% that of Earth’s. Kevin Stevenson and Jacob Lustig-Yaeger, both from the Johns Hopkins University Applied Physics Laboratory, led the research team who reported on the finding. The team’s [results](https://arxiv.org/abs/2301.04191) were presented at the American Astronomical Society (AAS) press conference on January 11, 2023. \n\n The **James Webb Space Telescope (JWST)** is a large, infrared-optimized space telescope launched in December 2021 and became fully operational in the Summer of 2022. One unique feature of the JWST is that it focuses on detecting **infrared light**. \n\n In physics, light is electromagnetic radiation that can be modeled as synchronized oscillations of electric and magnetic fields. Together, these fields form a propagating electromagnetic wave. The wavelength, or distance between peaks of the wave, determines where on the electromagnetic spectrum it falls. \n\n ![svg](https://miro.medium.com/max/640/0*UKylII5ERHyiZn6U.webp) \n\n Our human eyes can only detect visible light, which makes up only a tiny portion of the electromagnetic spectrum. Visible light ranges from red (at about 700 nanometers wavelength) to violet (at about 400 nanometers wavelength). Infrared light is electromagnetic radiation with wavelengths slightly longer than red visible light. \n\n Studying the infrared light emitted by astrophysical phenomena has some marked advantages over observing at visible light. Stars and planets form in clouds of dust, and this dust obscures our view; infrared light better penetrates these clouds and is thus easier to detect. Furthermore, stars that radiate at lower temperatures, such as red dwarfs, emit more strongly in the infrared light regime. The star LHS 475 b orbits around is a red dwarf, which makes the JWST an ideal observer.  \n\n In its short time in operation, the JWST has already observed distant galaxies from the beginning of our Universe and has even characterized the atmospheres of some already-known exoplanets. The JWST has now achieved another significant milestone: discovering its very first exoplanet. \n\n  The team chose to observe this target with the JWST after carefully reviewing data from NASA’s [Transiting Exoplanet Survey Satellite](https://www.nasa.gov/tess-transiting-exoplanet-survey-satellite/) (TESS), which hinted atbut did not confirm the planet’s existence. JWST’s [Near-Infrared Spectrograph](https://webb.nasa.gov/content/observatory/instruments/nirspec.html) (NIRSpec) instrument was able to confirm the planet’s existence easily and clearly, with only two transit observations. \n\n “There is no question that the planet is there. Webb’s pristine data validate it,” said Lustig-Yaeger in a [NASA press release](https://www.nasa.gov/feature/goddard/2023/nasa-s-webb-confirms-its-first-exoplanet/). “The fact that it is also a small, rocky planet is impressive for the observatory,” Stevenson added. \n\n ![conception of exoplanet LHS 475b](https://miro.medium.com/max/1400/1*xn2D16gvJJYCuUN25E0m9w.webp) \n\n So, now to address the question on everyone’s mind: is LHS 475 b capable of supporting life? To answer this, scientists look to the planet’s atmosphere for clues. At the time of this writing, the JWST is the only operating telescope able to characterize the atmospheres of Earth-sized exoplanets. The team attempted to assess LHS 475 b’s atmospheric composition by analyzing the planet’s [transmission spectrum](). \n\n A **transmission spectrum** is obtained by measuring the light of a star as an exoplanet transits in the line-of-sight between the star and the telescope on Earth. As the exoplanet passes in front of the star, some of the light from the star passes through the planet’s atmosphere. \n\n The technique involves measuring the amount of light that makes it through the planet’s atmosphere at different wavelengths. Then, that measurement is compared to the amount of light that would be expected if the planet had no atmosphere. By studying the differences in the amount of light at different wavelengths, astronomers can infer the planet’s atmospheric composition and properties. \n\n The JWST was designed to use transmission spectroscopy to study the atmospheres of exoplanets in great detail. It can even potentially detect the presence of biomarkers such as oxygen or methane, which would indicate the possibility of life on the exoplanet. \n\n ![](https://miro.medium.com/max/1400/1*zjKWvmf3kMGS71GYZfGk5w.webp) \n\n At this time, the researchers cannot fully conclude about the planet’s atmosphere. However, they can definitely say what is not present. “There are some terrestrial-type atmospheres that we can rule out,” explained Lustig-Yaeger. “It can’t have a thick methane-dominated atmosphere, similar to that of Saturn’s moon Titan.” \n\n The researchers note that the planet may have no atmosphere at all. Furthermore, some atmospheric compositions, such as a pure carbon dioxide atmosphere, have not yet been ruled out. More precise measurements are required to distinguish a pure carbon dioxide atmosphere from no atmosphere at all. The team plan to obtain additional spectra with upcoming observations this Summer. \n\n The JWST also revealed that the planet is a few hundred degrees warmer than Earth. Therefore, if clouds are detected, researchers may conclude that LHS 475 b is more Venus-like than Earth-like, with a carbon dioxide atmosphere and is perpetually shrouded in thick clouds. \n\n These results are a testament of the future possibilities of studying Earth-sized rocky planet atmospheres using the JWST. The JWST brings us closer to a new understanding of Earthlike worlds outside our Solar System. This is only the first of many discoveries it will make. \n\n So, what do you think? Please let us know in the responses! I’ll try my best to answer all serious comments!",
+            "endComment": "Thanks for reading! If you want more articles like these, please consider becoming a Medium member using my referral link [**here**]() to get unlimited access to all the articles on Medium for only $5/month."
+        }
+    },
+    {
+        "author": {
+            "name": "Diwash sapkota",
+            "image": "https://miro.medium.com/fit/c/176/176/1*_AUTkYysBRgHJKSl5N8EXA.png",
+            "followersCount": 112,
+            "about": "Interested in research, database, data analysis, and digital marketing | [https://linkedin.com/in/diwashsapkota]()"
+        },
+        "blog": {
+            "tags": ["Science", "Technology"],
+            "title": "Data Science and ChatGPT",
+            "image": "https://miro.medium.com/max/720/0*DfCQeZDM5ztd0COA",
+            "imageCaption": "",
+            "subtitle": "Let’s see how you can use ChatGPT for Data Science projects.",
+            "description": "ChatGPT is a large language model trained by OpenAI. It has been trained on a massive amount of data and can generate human-like text in response to input from a user. ChatGPT is capable of understanding and responding to a wide range of topics, including conversation, questions, and even jokes. Because of its ability to generate human-like text, ChatGPT can be used to create chatbots, virtual assistants, and other applications that require natural language processing. ChatGPT is based on the GPT-3 model, which is one of the most advanced language models in the world. The model uses a transformer architecture and deep learning techniques to generate high-quality text. ChatGPT is highly customizable, so developers can use it to create a wide range of applications. Overall, ChatGPT is a powerful tool for natural language processing and can be used to create a wide range of applications. \n\n The usage of ChatGPT for programming and data science is presented here. Fi.rstly, you need to sign up for an account if you don’t have one. \n\n If you’re new to ChatGPT, you must use [this link](https://chat.openai.com/auth/login?) to register an account. \n\n ![](https://miro.medium.com/max/640/0*VM6HJ-DHbqDP85eE.webp) \n\n You need to enter your email address and contact number to create an account. Once your account is created, you will see a screen that looks like the one below: \n\n ![](https://miro.medium.com/max/720/1*zpdy0nhORo2NnZj3ogYgLQ.webp) \n\n Let’s look at the things we can do with ChatGPT. \n\n  **1. Ask Coding Questions**\n Until now, for all sorts of coding errors and problems, we used to go to Stack Overflow and hope that one of the most popular responses contains the answer. But now, you can ask the same questions to ChatGPT. Suppose we want to know how to check palindrome in Python. Now we make an inquiry. \n\n ![](https://miro.medium.com/max/720/1*RmR1t1r4faGfEMSuEpdktg.webp) \n\n This is just a tiny example of what ChatGPT is able to do. You can make inquiries on implementing other libraries of python as well. ChatGPT answers them in an easy and concise manner. \n\n  **2. Translating Python Code to R and Vice-versa** \n Let’s say, you are a data scientist proficient in Python. And you are new to R. Now, if you want to translate your Python code to R, you can simply tell the ChatGPT to do it for you.\n\n ![](https://miro.medium.com/max/720/1*SBQnVHpEowlMqDpCF8WoEQ.webp) \n\n ChatGPT not only accomplishes the job, but it also explains the function and how to use it in R. This is very handy for individuals who can hardly print a “Hello World in R” \n\n But wait, there’s more! What if you’re working with dataframes in Python and need to repeat your work in R for any reason? ChatGPT can assist you. \n\n ` #Translate the following function from Python to R:  \n  `def get_stats(event_name):` \n `df_stats = df[df['event_name']==event_name]` \n `stats = df_stats['player_id']` \n `stats = stats.value_counts()` \n `return statsdf_stats = df[df[‘event_name’]==event_name] ` \n\n ![](https://miro.medium.com/max/720/1*TjRnSLSWisR3MS3pbF2ahA.webp) \n\n ![](https://miro.medium.com/max/720/1*pdhAQMMsIVZnUFIpR6zy_w.webp) \n\n After seeing the results, you now know that you may select columns in R using the $ sign and that the table function in R is equal to pandas’.value counts. \n\n I even tested the code in R, and it worked well! \n\n **3. Natural Language to SQL Queries** \n OpenAI allows you to write SQL Queries with natural language. Let us examine this with a simple query. \n\n ![](https://miro.medium.com/max/720/1*7Br_3DotARSIsm2_5Ge9GA.webp) \n\n ![](https://miro.medium.com/max/720/1*n7wwI7a9N16_llrLkFjIYA.webp) \n\n **4. Classifying Text** \n ChatGPT can also be useful in classifying the texts. Let’s see how it works \n\n ![](https://miro.medium.com/max/720/1*NJmtSzxTjUONxgsw5dOyjQ.webp) \n\n **5. Visualizing Data** \n\n  ![](https://miro.medium.com/max/1400/1*ajfC5DpqsakUnTZNSWw21A.webp) \n\n ![](https://miro.medium.com/max/720/1*g3mxdYX_RKalcWshcNciBg.webp) \n\n ![](https://miro.medium.com/max/720/1*VsFXbUjvd7DWYQwHU7l1fw.webp)",
+            "endComment": "There are several other cool things you can do with ChatGPT. Check out [this link]() to explore more on ChatGPT and its use-cases."
+        }
+    },
+    {
+        "author": {
+            "name": "Prof C Explains",
+            "image": "https://miro.medium.com/fit/c/176/176/1*jP0Qf1jXVEHn4GmHMvrM5w.png",
+            "followersCount": 310,
+            "about": "J Scott Christianson: UM Teaching Prof, Technologist & Entrepreneur. Connect with me here: https://www.christiansonjs.com/"
+        },
+        "blog": {
+            "tags": ["Science", "Technology"],
+            "title": "Welcome to the World of Programmable Assets: NFTs and the Future of Art Investing",
+            "image": "https://miro.medium.com/max/720/1*HpjP8_3UEIB3ePU3f3ssaA.webp",
+            "imageCaption": "",
+            "subtitle": "",
+            "description": "[![IMAGE ALT TEXT HERE](https://miro.medium.com/max/720/1*HpjP8_3UEIB3ePU3f3ssaA.webp)](https://youtu.be/C4wm-p_VFh0)",
+            "endComment": ""
+        }
+    },
+    {
+        "author": {
+            "name": "Diwash sapkota",
+            "image": "https://miro.medium.com/fit/c/176/176/1*_AUTkYysBRgHJKSl5N8EXA.png",
+            "followersCount": 112,
+            "about": "I am Interested in research, database, data analysis, and digital marketing"
+        },
+        "blog": {
+            "tags": ["Science", "Technology"],
+            "title": "Data Science and ChatGPT",
+            "image": "https://miro.medium.com/max/720/0*DfCQeZDM5ztd0COA",
+            "imageCaption": "",
+            "subtitle": "Let’s see how you can use ChatGPT for Data Science projects.",
+            "description": "",
+            "endComment": ""
+        }
+    },
+    {
+        "author": {
+            "name": "Diwash sapkota",
+            "image": "https://miro.medium.com/fit/c/176/176/1*_AUTkYysBRgHJKSl5N8EXA.png",
+            "followersCount": 112,
+            "about": "I am Interested in research, database, data analysis, and digital marketing"
+        },
+        "blog": {
+            "tags": ["Science", "Technology"],
+            "title": "Data Science and ChatGPT",
+            "image": "https://miro.medium.com/max/720/0*DfCQeZDM5ztd0COA",
+            "imageCaption": "",
+            "subtitle": "Let’s see how you can use ChatGPT for Data Science projects.",
+            "description": "",
+            "endComment": ""
+        }
+    },
+    {
+        "author": {
+            "name": "Diwash sapkota",
+            "image": "https://miro.medium.com/fit/c/176/176/1*_AUTkYysBRgHJKSl5N8EXA.png",
+            "followersCount": 112,
+            "about": "I am Interested in research, database, data analysis, and digital marketing"
+        },
+        "blog": {
+            "tags": ["Science", "Technology"],
+            "title": "Data Science and ChatGPT",
+            "image": "https://miro.medium.com/max/720/0*DfCQeZDM5ztd0COA",
+            "imageCaption": "",
+            "subtitle": "Let’s see how you can use ChatGPT for Data Science projects.",
+            "description": "",
+            "endComment": ""
+        }
+    },
+    {
+        "author": {
+            "name": "Diwash sapkota",
+            "image": "https://miro.medium.com/fit/c/176/176/1*_AUTkYysBRgHJKSl5N8EXA.png",
+            "followersCount": 112,
+            "about": "I am Interested in research, database, data analysis, and digital marketing"
+        },
+        "blog": {
+            "tags": ["Science", "Technology"],
+            "title": "Data Science and ChatGPT",
+            "image": "https://miro.medium.com/max/720/0*DfCQeZDM5ztd0COA",
+            "imageCaption": "",
+            "subtitle": "Let’s see how you can use ChatGPT for Data Science projects.",
+            "description": "",
+            "endComment": ""
+        }
+    },
+    {
+        "author": {
+            "name": "Diwash sapkota",
+            "image": "https://miro.medium.com/fit/c/176/176/1*_AUTkYysBRgHJKSl5N8EXA.png",
+            "followersCount": 112,
+            "about": "I am Interested in research, database, data analysis, and digital marketing"
+        },
+        "blog": {
+            "tags": ["Science", "Technology"],
+            "title": "Data Science and ChatGPT",
+            "image": "https://miro.medium.com/max/720/0*DfCQeZDM5ztd0COA",
+            "imageCaption": "",
+            "subtitle": "Let’s see how you can use ChatGPT for Data Science projects.",
+            "description": "",
+            "endComment": ""
+        }
+    },
+    {
+        "author": {
+            "name": "Diwash sapkota",
+            "image": "https://miro.medium.com/fit/c/176/176/1*_AUTkYysBRgHJKSl5N8EXA.png",
+            "followersCount": 112,
+            "about": "I am Interested in research, database, data analysis, and digital marketing"
+        },
+        "blog": {
+            "tags": ["Science", "Technology"],
+            "title": "Data Science and ChatGPT",
+            "image": "https://miro.medium.com/max/720/0*DfCQeZDM5ztd0COA",
+            "imageCaption": "",
+            "subtitle": "Let’s see how you can use ChatGPT for Data Science projects.",
+            "description": "",
+            "endComment": ""
+        }
+    }
+]
