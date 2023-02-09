@@ -17,6 +17,9 @@ const Navbar = () => {
                     <Link to="/home" className={`mr-4 ${linkStyle}`}>
                         Home
                     </Link>
+                    <Link to="/addBlog" className={`mr-4 ${linkStyle}`}>
+                        Add Blog
+                    </Link>
                     <Link to="/history" className={`${linkStyle}`}>
                         Reading History
                     </Link>
