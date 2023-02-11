@@ -9,8 +9,18 @@ import Markdown from "./Markdown";
 
 const BlogInfo = ({ blog }) => {
     // const description = blog.description;
-    const description =
-        "ChatGPT is a large language model trained by OpenAI. It has been trained on a massive amount of data and can generate human-like text in response to input from a user. ChatGPT is capable of understanding and responding to a wide range of topics, including conversation, questions, and even jokes. Because of its ability to generate human-like text, ChatGPT can be used to create chatbots, virtual assistants, and other applications that require natural language processing. ChatGPT is based on the GPT-3 model, which is one of the most advanced language models in the world. The model uses a transformer architecture and deep learning techniques to generate high-quality text. ChatGPT is highly customizable, so developers can use it to create a wide range of applications. Overall, ChatGPT is a powerful tool for natural language processing and can be used to create a wide range of applications.  <br/>  The usage of ChatGPT for programming and data science is presented here. Firstly, you need to sign up for an account if you don’t have one.";
+    console.log(blog.description);
+    // const description = `
+    //         #Translate the following function from Python to R:
+    //         def get_stats(event_name):
+    //             df_stats = df[df['event_name']==event_name]
+    //             stats = df_stats['player_id']
+    //             stats = stats.value_counts()
+    //             return statsdf_stats = df[df[‘event_name’]==event_name]
+    //              `;
+
+    // const description =
+    //     "ChatGPT is a large language model trained by OpenAI. It has been trained on a massive amount of data and can generate human-like text in response to input from a user. ChatGPT is capable of understanding and responding to a wide range of topics, including conversation, questions, and even jokes. Because of its ability to generate human-like text, ChatGPT can be used to create chatbots, virtual assistants, and other applications that require natural language processing. ChatGPT is based on the GPT-3 model, which is one of the most advanced language models in the world. The model uses a transformer architecture and deep learning techniques to generate high-quality text. ChatGPT is highly customizable, so developers can use it to create a wide range of applications. Overall, ChatGPT is a powerful tool for natural language processing and can be used to create a wide range of applications.  <br/>  The usage of ChatGPT for programming and data science is presented here. Firstly, you need to sign up for an account if you don’t have one.";
     // const value = description.replace(/\n/gi, " <br />");
     // const description = [
     //     {
@@ -72,38 +82,39 @@ const BlogInfo = ({ blog }) => {
                `}
                 />
             ))} */}
-            <ReactMarkdown
-                // source="test"
-                // renderers={{
-                //     paragraph: (props) => <p className="testC">{...props}</p>,
-                // }}
-                // children={Object.values(block)[0]}
-                // children={value}
-                components={{
-                    code({ node, inline, className, children, ...props }) {
-                        const match = /language-(\w+)/.exec(className || "");
-                        return !inline && match ? (
-                            <SyntaxHighlighter
-                                children={String(children).replace(/\n$/, "")}
-                                // style={dark}
-                                language={match[1]}
-                                PreTag="div"
-                                {...props}
-                            />
-                        ) : (
-                            <code className={"whitespace-normal"} {...props}>
-                                {children}
-                            </code>
-                        );
-                    },
-                }}
-                // rehypePlugins={[rehypeHighlight]}
-                className={`whitespace-pre-wrap font-serif sm:leading-[2.2rem] sm:text-xl text-lg description
-             ${blog.firstLetter && `${firstLetterStyle}`}
-            `}
-            >
-                " lorem "<br /> ipsum
-            </ReactMarkdown>
+            {blog.description.map((description) => (
+                <ReactMarkdown
+                    // source="test"
+                    // renderers={{
+                    //     paragraph: (props) => <p className="testC">{...props}</p>,
+                    // }}
+                    // children={Object.values(block)[0]}
+                    children={description.key}
+                    // components={{
+                    //     code({ node, inline, className, children, ...props }) {
+                    //         const match = /language-(\w+)/.exec(className || "");
+                    //         return !inline && match ? (
+                    //             <SyntaxHighlighter
+                    //                 children={String(children).replace(/\n$/, "")}
+                    //                 // style={dark}
+                    //                 language={match[1]}
+                    //                 PreTag="div"
+                    //                 {...props}
+                    //             />
+                    //         ) : (
+                    //             <code className={"whitespace-normal"} {...props}>
+                    //                 {children}
+                    //             </code>
+                    //         );
+                    //     },
+                    // }}
+                    // rehypePlugins={[rehypeHighlight]}
+                    className={`whitespace-pre-wrap font-serif sm:leading-[2.2rem] sm:text-xl text-lg description
+                 ${blog.firstLetter && `${firstLetterStyle}`}
+                `}
+                ></ReactMarkdown>
+            ))}
+
             {blog.endComment && (
                 <div>
                     <div className="flex justify-center my-8">
