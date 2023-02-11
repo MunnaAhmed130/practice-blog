@@ -9,8 +9,8 @@ import "./Blog.css";
 const Blog = () => {
     const text = useParams();
     const data = useData();
-    console.log(data);
-    console.log(text);
+    // console.log(data);
+    // console.log(text);
 
     return (
         <div className="max-w-7xl mx-auto">

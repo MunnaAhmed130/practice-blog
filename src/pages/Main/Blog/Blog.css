@@ -2,9 +2,8 @@
     margin-inline: auto;
 }
 
-.description code {
+.description code span {
     font-size: 0.875rem;
-    display: inline-block;
     /* line-height: 1px; */
 }
 
