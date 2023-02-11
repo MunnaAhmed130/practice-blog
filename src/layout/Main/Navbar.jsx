@@ -10,7 +10,9 @@ const Navbar = () => {
                 className={`flex justify-between items-center  ${style.containerPadding} py-3`}
             >
                 {/* logo */}
-                <h1 className="sm:text-4xl text-[32px] font-bold">DBlogers</h1>
+                <h1 className="sm:text-4xl text-[32px] font-bold">
+                    <Link to="/">DBlogers</Link>
+                </h1>
                 {/* primary nav */}
                 <div className=" flex">
                     {/* <div href="/">Reading History</div> */}

@@ -4,7 +4,7 @@
 
 .description code span {
     font-size: 0.875rem;
-    /* line-height: 1px; */
+    /* white-space: normal; */
 }
 
 :is(.description, .about, figcaption, .end--comment) a {
