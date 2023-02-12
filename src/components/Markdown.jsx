@@ -14,14 +14,14 @@ const Markdown = ({ block, blog }) => {
             // renderers={{
             //     paragraph: (props) => <p className="testC">{...props}</p>,
             // }}
-            // children={Object.values(block)[0]}
-            children=""
+            children={Object.values(block)[0]}
+            // children=""
             components={{
                 code({ node, inline, className, children, ...props }) {
                     const match = /language-(\w+)/.exec(className || "");
                     return !inline && match ? (
                         <SyntaxHighlighter
-                            children={String(children).replace(/\n$/, "")}
+                            children={String(children).replace(/\n$/, <br />)}
                             // style={dark}
                             language={match[1]}
                             PreTag="div"

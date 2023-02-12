@@ -4,7 +4,7 @@
             "name": "Diwash sapkota",
             "image": "https://miro.medium.com/fit/c/176/176/1*_AUTkYysBRgHJKSl5N8EXA.png",
             "followersCount": 112,
-            "about": "I am Interested in research, database, data analysis, and digital marketing"
+            "about": "I am Interested in research, database, data analysis, and digital marketing | [https://linkedin.com/in/diwashsapkota]()"
         },
         "blog": {
             "tags": ["Science", "Technology"],
@@ -14,7 +14,7 @@
             "subtitle": "Let’s see how you can use ChatGPT for Data Science projects.",
             "description": [
                 {
-                    "key": " `~~~py  #Translate the following function from Python to R:  def get_stats(event_name): df_stats = df[df['event_name']==event_name]  stats = df_stats['player_id']  stats = stats.value_counts()  return statsdf_stats = df[df[‘event_name’]==event_name],}, ` "
+                    "key": "` #Translate the following function from Python to R: \n  def get_stats(event_name): \n df_stats = df[df['event_name']==event_name] \n stats = df_stats['player_id']  stats = stats.value_counts()  return statsdf_stats = df[df[‘event_name’]==event_name],},`"
                 }
             ],
             "endComment": ""
