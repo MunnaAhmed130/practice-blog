@@ -10,3 +10,12 @@
 :is(.description, .about, figcaption, .end--comment) a {
     text-decoration: underline;
 }
+
+/* style for Pblogs */
+.description p {
+    margin-bottom: 2rem;
+}
+
+.description em {
+    font-style: italic;
+}

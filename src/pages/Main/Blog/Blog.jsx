@@ -8,7 +8,7 @@ import "./Blog.css";
 
 const Blog = () => {
     const text = useParams();
-    const data = useData();
+    const { data } = useData();
     // console.log(data);
     // console.log(text);
 

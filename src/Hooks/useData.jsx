@@ -7,7 +7,8 @@ const useData = () => {
             .then((res) => res.json())
             .then((data) => setData(data));
     }, []);
-    return data;
+    const value = { data, setData };
+    return value;
 };
 
 export default useData;

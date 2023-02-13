@@ -34,6 +34,20 @@ const Markdown = ({ block, blog }) => {
                         </code>
                     );
                 },
+                strong({ className, children, ...props }) {
+                    return (
+                        <strong className={"font-semibold"} {...props}>
+                            {children}
+                        </strong>
+                    );
+                },
+                h2({ className, children, ...props }) {
+                    return (
+                        <h2 className={"font-bold font-sans"} {...props}>
+                            {children}
+                        </h2>
+                    );
+                },
             }}
             // rehypePlugins={[rehypeHighlight]}
             //     className={`whitespace-pre-line font-serif sm:leading-[2.2rem] sm:text-xl text-lg description
