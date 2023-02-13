@@ -9,13 +9,14 @@ const Markdown = ({ block, blog }) => {
     const firstLetterStyle =
         "sm:first-letter:text-7xl first-letter:text-[3.5rem]  sm:first-letter:leading-[.9] first-letter:leading-[.9] first-letter:float-left first-letter:mr-2 first-letter:mt-1 ";
     return (
+        // <div>
         <ReactMarkdown
             // source="test"
             // renderers={{
             //     paragraph: (props) => <p className="testC">{...props}</p>,
             // }}
-            children={Object.values(block)[0]}
-            // children=""
+            // children={Object.values(block)[0]}
+            children={block}
             components={{
                 code({ node, inline, className, children, ...props }) {
                     const match = /language-(\w+)/.exec(className || "");
@@ -35,10 +36,11 @@ const Markdown = ({ block, blog }) => {
                 },
             }}
             // rehypePlugins={[rehypeHighlight]}
-            className={`whitespace-pre-line font-serif sm:leading-[2.2rem] sm:text-xl text-lg description
-             ${blog.firstLetter && `${firstLetterStyle}`}
-            `}
+            //     className={`whitespace-pre-line font-serif sm:leading-[2.2rem] sm:text-xl text-lg description
+            //  ${blog.firstLetter && `${firstLetterStyle}`}
+            // `}
         />
+        // </div>
     );
 };
 

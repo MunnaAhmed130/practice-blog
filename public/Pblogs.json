@@ -19,5 +19,49 @@
             ],
             "endComment": ""
         }
+    },
+    {
+        "author": {
+            "name": "Prof C Explains",
+            "image": "https://miro.medium.com/fit/c/176/176/1*jP0Qf1jXVEHn4GmHMvrM5w.png",
+            "followersCount": 310,
+            "about": "J Scott Christianson: UM Teaching Prof, Technologist & Entrepreneur. Connect with me here: https://www.christiansonjs.com/"
+        },
+        "blog": {
+            "tags": ["Science", "Technology"],
+            "title": "Welcome to the World of Programmable Assets: NFTs and the Future of Art Investing",
+            "image": "https://miro.medium.com/max/720/1*HpjP8_3UEIB3ePU3f3ssaA.webp",
+            "imageCaption": "",
+            "subtitle": "",
+            "publishedDate": "Jan 27, 2022 ",
+            "readTime": 8,
+            "description": [
+                "It is easy to dismiss the hype and manic speculation surrounding digital non-fungible token (NFT) art assets, but behind the wild stories and headlines is a serious technological change in how assets can be created, sold, and traded.  ",
+                " ***NFTs, often pronounced “nifties,” are serious innovations that have interesting implications for art investments and other asset classes.***",
+                "**The Revolution will be Tokenized**",
+                "  When a creative work such as a movie, artwork, or book moves from being a physical object in the analog world to bits in the digital realm, some interesting magic happens. First, the cost of digitally copying and distributing a work becomes so negligible that it can be considered nonexistent. Second, when a digital asset is copied, it is identical to the original. As a result, because ownership and scarcity of a work is both hard to verify and maintain, past efforts by small companies or artists to secure their work’s [digital property rights either proved unsuccessful or were far too expensive to implement.]() ",
+                "Today, using cryptographic signatures and blockchain technology, artists can issue a secure NFT representing their creative work with relative ease and little expense. In essence, each NFT is a unique digital certificate of authenticity issued by the creator or holder of an asset. In contrast, a cryptocurrency asset such as a bitcoin can be exchanged only for another bitcoin or subdivided.",
+                "Although the excitement about NFTs currently is centered on the arts, NFTs also can be handy for representing various digital or analog assets. For example, NFTs are now being used in smart contracts to represent invoices, accounts, payments, and physical assets.",
+                " **Many Copies, One Original**",
+                "NFTs don’t prevent the duplication of digital art, but they do allow the artist to mint a digital token or tokens that can be sold like an original painting or print. The creator can issue just one NFT to represent the work (similar to an original painting) or issue a limited number of NFTs (similar to a limited-edition print). ",
+                "Just as one might hang a poster of an Andy Warhol silkscreen on the wall to enjoy, the digital art of Beeple can be downloaded and displayed by anyone. However, neither is an original, nor do they possess significant value. Digital art without an NFT is the same as the poster: It is nice to look at, but it is not an investment.",
+                "In this way, NFTs can prove ownership, provide authenticity of an asset, and preserve scarcity in a digital world. ",
+                "![](https://miro.medium.com/max/720/1*4D_o7Vbk6UFcvkHp_WdczA.webp)",
+                "**A Smarter Sale for Artists and Art Patrons**",
+                "NFTs can’t be copied, but they can be sold or transferred to another party via a smart contract, which can include any number of provisions or restrictions. NFT contracts typically are made using the Ethereum platform, which includes a cryptocurrency known as ether. Ether can be exchanged with U.S. dollars, euros, and other government-issued currencies. Payments are made automatic by combining the payment platform and the contract. These smart contracts are also largely peer-to-peer and can include any number of scenarios.",
+                " For example, [American artist Sara Ludy recently set the terms for the sale of her digital art: 50 percent for herself, 15 percent to the platform that sells her art](), and 35 percent to the gallery that represents her work. Ludy’s smart contract also specifies that the gallery proceeds are divided between the gallery owner and gallery staff.",
+                "One popular use of smart contracts is to allow artists to participate in their work’s subsequent resale. For example, artists can sell NFTs and specify that they will receive 10 percent of any subsequent resale amounts. As the art appreciates, the artist can benefit financially for years or decades after selling the original art.",
+                " A smart contract also might benefit art investors. For example, upon resale of an NFT, the original creator of the NFT receives a certain percentage of the sale, as do all previous owners of the NFT. This type of contract could incentivize more investment and speculation in art because the act of resale also would allow early investors to profit from the rising value.",
+                " To blunt the possibility of bad behavior arising from NFT resale (pump and dump), smart contracts also can alter the proportions or amounts paid with each sale (for example, the gallery only gets a portion of the first three sales and none beyond that).",
+                "A smart contract also might limit the number of sales within a given time period, even for small-value assets. This capability has great potential outside of art. Take for example Sony’s PlayStation 5 (PS5) gaming console, which was in short supply during the winter of 2020. This limited supply was made worse by scalpers who utilized computer bots to quickly purchase all available PS5 consoles as soon as they were released. At the time, Sony was accused of failing to protect consumers by permitting bot-buying. If Sony had tied an NFT to each console sale, purchasers could have been restricted from reselling the device for six months, thereby eliminating the incentive for scalpers.",
+                " Ultimately, the terms used in smart contracts will determine which behaviors will be incentivized. Many NFT fans hope that NFTs will allow artists to bypass the current gatekeepers (gallery owners, art critics, etc.) and democratize art investing. But, of course, it also could happen that NFTs create new gatekeep- ers or fuel investments in bad art. ",
+                " **Ya Burnt, Banksy** ",
+                "The question “What is art?” takes on new twists in the world of NFTs. In March 2021, a collective of “art and NFT enthusiasts” called Injective Protocol purchased a Banksy original print titled Morons (White) valued at US$95,000. The collective then made an NFT to digitally represent the print and burned the original. [**The resulting NFT was sold at auction several days later for US$380,000.**]()",
+                " [![Watch the video](https://img.youtube.com/vi/C4wm-p_VFh0/hqdefault.jpg)](https://www.youtube.com/watch?v=C4wm-p_VFh0)",
+                " This is reminiscent of an episode in the 1950s when Willem de Kooning gifted a drawing to Robert Rauschenberg, knowing that Rauschenberg intended to erase it and thereby create a new piece titled **Erased de Kooning Drawing.**",
+                " https://miro.medium.com/max/720/1*EljZdm0tpKZY6H_lQsVzdg.webp "
+            ],
+            "endComment": ""
+        }
     }
 ]
