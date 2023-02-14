@@ -13,9 +13,7 @@
             "imageCaption": "",
             "subtitle": "Let’s see how you can use ChatGPT for Data Science projects.",
             "description": [
-                {
-                    "key": "` #Translate the following function from Python to R: \n  def get_stats(event_name): \n df_stats = df[df['event_name']==event_name] \n stats = df_stats['player_id']  stats = stats.value_counts()  return statsdf_stats = df[df[‘event_name’]==event_name],},`"
-                }
+                "Researchers confirmed an **exoplanet**, a planet outside our Solar System, using NASA’s James Webb Space Telescope for the first time. Formally classified as **LHS 475 b**, the exoplanet in the constellation Octans and is relatively close at only 41 light-years away. LHS 475 b is almost exactly the same size as Earth, with a diameter of 99% that of Earth’s. Kevin Stevenson and Jacob Lustig-Yaeger, both from the Johns Hopkins University Applied Physics Laboratory, led the research team who reported on the finding. The team’s [results](https://arxiv.org/abs/2301.04191) were presented at the American Astronomical Society (AAS) press conference on January 11, 2023."
             ],
             "endComment": ""
         }
@@ -36,7 +34,7 @@
             "publishedDate": "Jan 27, 2022 ",
             "readTime": 8,
             "description": [
-                "\n\nIt is easy to dismiss the hype and manic speculation surrounding digital non-fungible token (NFT) art assets, but behind the wild stories and headlines is a serious technological change in how assets can be created, sold, and traded.",
+                "It is easy to dismiss the hype and manic speculation surrounding digital non-fungible token (NFT) art assets, but behind the wild stories and headlines is a serious technological change in how assets can be created, sold, and traded.",
                 " ***NFTs, often pronounced “nifties,” are serious innovations that have interesting implications for art investments and other asset classes.***",
                 "## The Revolution will be Tokenized \n  When a creative work such as a movie, artwork, or book moves from being a physical object in the analog world to bits in the digital realm, some interesting magic happens. First, the cost of digitally copying and distributing a work becomes so negligible that it can be considered nonexistent. Second, when a digital asset is copied, it is identical to the original. As a result, because ownership and scarcity of a work is both hard to verify and maintain, past efforts by small companies or artists to secure their work’s [digital property rights either proved unsuccessful or were far too expensive to implement.]() ",
                 "Today, using cryptographic signatures and blockchain technology, artists can issue a secure NFT representing their creative work with relative ease and little expense. In essence, each NFT is a unique digital certificate of authenticity issued by the creator or holder of an asset. In contrast, a cryptocurrency asset such as a bitcoin can be exchanged only for another bitcoin or subdivided.",

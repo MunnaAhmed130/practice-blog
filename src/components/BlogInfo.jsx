@@ -60,8 +60,10 @@ const BlogInfo = ({ blog }) => {
         "font-bold tracking-tight sm:text-[32px] text-3xl sm:leading-10 leading-10 pb-2 ";
 
     const subtitle = "tracking-tight sm:text-2xl text-xl  text-gray-500";
+
     const firstLetterStyle =
         "sm:first-letter:text-7xl first-letter:text-[3.5rem]  sm:first-letter:leading-[.9] first-letter:leading-[.9] first-letter:float-left first-letter:mr-2 first-letter:mt-1 ";
+
     return (
         <div className={` blog__container  py-7 font-sans `}>
             <h2 className={title}>{blog.title}</h2>
