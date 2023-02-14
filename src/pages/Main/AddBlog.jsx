@@ -1,8 +1,18 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
 import { BLOG_CONTEXT } from "../../App";
 
 const AddBlog = () => {
+    const [image, setImage] = useState([]);
+    console.log(image);
+    const onImageChange = (e) => {
+        setImage(
+            URL.createObjectURL(
+                new Blob(e.target.files, { type: "application/zip" })
+            )
+        );
+        console.log(image);
+    };
     const inputStyle = "border w-full mb-2 pl-4 focus:outline-none";
     const { data, setData } = useContext(BLOG_CONTEXT);
 
@@ -40,7 +50,17 @@ const AddBlog = () => {
                     className={`${inputStyle} h-20 text-4xl placeholder:text-4xl leading-[5rem] `}
                     placeholder="Title"
                     {...register("title")}
+                    required
                 />
+                <input
+                    type="file"
+                    id="fileElem"
+                    multiple
+                    accept="image/*"
+                    // style={{ display: "none" }}
+                    onChange={onImageChange}
+                />
+                <img src={image} alt="" />
                 <textarea
                     type="text"
                     className={`${inputStyle} text-xl`}
