@@ -10,7 +10,7 @@ import Markdown from "./Markdown";
 const BlogInfo = ({ blog }) => {
     const description = blog.description;
     // const text = description[0].key.replace(/"/g, "`");
-    // console.log(text);
+    console.log(description);
     // const description = `~~~js
     // #Translate the following function from Python to R:
     // def get_stats(event_name):

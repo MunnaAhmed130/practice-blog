@@ -7,8 +7,24 @@ const AddBlog = () => {
     const { data, setData } = useContext(BLOG_CONTEXT);
 
     const { register, handleSubmit } = useForm();
-    const onSubmit = (blog) => {
-        const blogInfo = { author: {}, blog: { ...blog } };
+    const onSubmit = (inputData) => {
+        const author = {
+            name: "Prof C Explains",
+            image: "https://miro.medium.com/fit/c/176/176/1*jP0Qf1jXVEHn4GmHMvrM5w.png",
+            followersCount: 310,
+            about: "J Scott Christianson: UM Teaching Prof, Technologist & Entrepreneur. Connect with me here: https://www.christiansonjs.com/",
+        };
+        const blog = {
+            tags: ["Science", "Technology"],
+            title: inputData.title,
+            image: "https://miro.medium.com/max/720/1*HpjP8_3UEIB3ePU3f3ssaA.webp",
+            imageCaption: "",
+            subtitle: "",
+            publishedDate: "Jan 27, 2022 ",
+            readTime: 8,
+            description: [inputData.description],
+        };
+        const blogInfo = { author: { ...author }, blog: { ...blog } };
         const blogs = [...data, blogInfo];
         setData(blogs);
         console.log(blogInfo);

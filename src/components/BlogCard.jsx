@@ -17,8 +17,8 @@ const BlogCard = ({ blog }) => {
         100
     )}...**see more**`;
     // const des = description.slice(0, 5);
-    const des = ` ${description}...see more`;
-    console.log(des);
+    // const des = ` ${description}...see more`;
+    // console.log(des);
 
     return (
         <div>
@@ -26,7 +26,7 @@ const BlogCard = ({ blog }) => {
                 <Link to={`/blog/${blog.blog.title}`}>
                     <img
                         className="h-52 w-full  border-0"
-                        src={blog.blog.image}
+                        src={blog.blog?.image}
                         alt=""
                     />
                 </Link>

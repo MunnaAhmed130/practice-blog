@@ -10,7 +10,6 @@ const Markdown = ({ block, blog }) => {
         "sm:first-letter:text-7xl first-letter:text-[3.5rem]  sm:first-letter:leading-[.9] first-letter:leading-[.9] first-letter:float-left first-letter:mr-2 first-letter:mt-1 ";
 
     return (
-        // <div>
         <ReactMarkdown
             // source="test"
             // renderers={{
@@ -44,7 +43,10 @@ const Markdown = ({ block, blog }) => {
                 },
                 h2({ className, children, ...props }) {
                     return (
-                        <h2 className={"font-bold font-sans"} {...props}>
+                        <h2
+                            className={"font-[600] font-sans text-[22px]"}
+                            {...props}
+                        >
                             {children}
                         </h2>
                     );
@@ -55,7 +57,6 @@ const Markdown = ({ block, blog }) => {
             //  ${blog.firstLetter && `${firstLetterStyle}`}
             // `}
         />
-        // </div>
     );
 };
 
