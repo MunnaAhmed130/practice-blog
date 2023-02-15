@@ -7,7 +7,7 @@ import rehypeHighlight from "rehype-highlight";
 const Markdown = ({ block, blog }) => {
     // console.log(Object.values(block));
     const firstLetterStyle =
-        "sm:first-letter:text-7xl first-letter:text-[3.5rem]  sm:first-letter:leading-[.9] first-letter:leading-[.9] first-letter:float-left first-letter:mr-2 first-letter:mt-1 ";
+        "sm:first-letter:text-7xl first-letter:text-[3.5rem]  sm:first-letter:leading-[.9] first-letter:leading-[.9] first-letter:float-left first-letter:mr-2 first-letter:mt-1";
 
     return (
         <ReactMarkdown
@@ -29,7 +29,7 @@ const Markdown = ({ block, blog }) => {
                 //             {...props}
                 //         />
                 //     ) : (
-                //         <code className={"whitespace-normal"} {...props}>
+                //         <code className={className} {...props}>
                 //             {children}
                 //         </code>
                 //     );

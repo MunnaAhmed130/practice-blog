@@ -8,7 +8,7 @@ const AddBlog = () => {
     const onImageChange = (e) => {
         setImage(
             URL.createObjectURL(
-                new Blob(e.target.files, { type: "application/zip" })
+                new Blob(e.target.files, { type: "application/json" })
             )
         );
         console.log(image);
@@ -52,15 +52,20 @@ const AddBlog = () => {
                     {...register("title")}
                     required
                 />
-                <input
-                    type="file"
-                    id="fileElem"
-                    multiple
-                    accept="image/*"
-                    // style={{ display: "none" }}
-                    onChange={onImageChange}
-                />
-                <img src={image} alt="" />
+                <div className={`border w-full mb-2 focus:outline-none`}>
+                    <input
+                        type="file"
+                        id="fileElem"
+                        multiple
+                        accept="image/*"
+                        className="w-full inline-block"
+                        // style={{ display: "none" }}
+                        onChange={onImageChange}
+                        autoFocus
+                    />
+                    <img src={image} alt="" />
+                </div>
+
                 <textarea
                     type="text"
                     className={`${inputStyle} text-xl`}
