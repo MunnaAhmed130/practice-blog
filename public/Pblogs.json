@@ -48,6 +48,8 @@
             "about": "Interested in research, database, data analysis, and digital marketing | [https://linkedin.com/in/diwashsapkota]()"
         },
         "blog": {
+            "publishedDate": "Jan 27, 2022 ",
+            "readTime": "4",
             "tags": ["Science", "Technology"],
             "title": "Data Science and ChatGPT",
             "image": "https://miro.medium.com/max/720/0*DfCQeZDM5ztd0COA",

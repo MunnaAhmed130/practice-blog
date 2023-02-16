@@ -52,9 +52,10 @@ const Markdown = ({ block, blog }) => {
                     );
                 },
             }}
-            rehypePlugins={[rehypeHighlight]}
-            //     className={`whitespace-pre-line font-serif sm:leading-[2.2rem] sm:text-xl text-lg description
-            //  ${blog.firstLetter && `${firstLetterStyle}`}
+            // rehypePlugins={[rehypeHighlight]}
+            // className={`font-serif sm:leading-[2.2rem] sm:text-xl text-lg description  ${
+            //     blog.firstLetter && `${firstLetterStyle}`
+            // }
             // `}
         />
     );
